@@ -27,7 +27,7 @@ While building a Docker image, you may need to run commands for reasons such as 
 
 You’ll use the EXPOSE command to choose what ports should be available to communicate with a container. When running Docker containers, you can pass in the -p argument known as publish, which is similar to the EXPOSE command.
 
-### `CMD python ./index.py`
+### `CMD python ./run.py`
 
 Docker can run only one CMD command. Therefore, if you insert two or more CMD instructions, Docker would only run the last one i.e. the most recent one.
 ENTRYPOINT is similar to CMD, however, you can run commands while launching and it wouldn’t override the instructions you’ve defined at ENTRYPOINT.
