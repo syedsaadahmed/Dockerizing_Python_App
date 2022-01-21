@@ -1,2 +1,4 @@
 flask
 pytest
+Flask
+mysql-connector-python
